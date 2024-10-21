@@ -1,11 +1,11 @@
-package ir.freeland.springboot.web;
+package ir.freeland.springboot.service;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-import ir.freeland.springboot.persistence.model.Account;
-import ir.freeland.springboot.persistence.model.Transaction;
-import ir.freeland.springboot.persistence.repo.AccountRepository;
-import ir.freeland.springboot.persistence.repo.TransactionRepository;
+import ir.freeland.springboot.entity.Account;
+import ir.freeland.springboot.entity.Transaction;
+import ir.freeland.springboot.repository.AccountRepository;
+import ir.freeland.springboot.repository.TransactionRepository;
 import java.math.BigDecimal;
 import java.util.Optional;
 
