@@ -1,7 +1,7 @@
-package ir.freeland.springboot.persistence.repo;
+package ir.freeland.springboot.repository;
 
 import org.springframework.data.repository.CrudRepository;
-import ir.freeland.springboot.persistence.model.Account;
+import ir.freeland.springboot.entity.Account;
 import java.util.List;
 import java.util.Optional;
 
