@@ -1,4 +1,4 @@
-package ir.freeland.springboot.web;
+package ir.freeland.springboot.controller;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.support.DefaultMessageSourceResolvable;
@@ -19,9 +19,9 @@ import org.springframework.web.bind.annotation.PutMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
-import ir.freeland.springboot.persistence.model.LoginRequest;
-import ir.freeland.springboot.persistence.model.Person;
-import ir.freeland.springboot.persistence.model.JwtTokenProvider;
+import ir.freeland.springboot.entity.LoginRequest;
+import ir.freeland.springboot.entity.Person;
+import ir.freeland.springboot.entity.JwtTokenProvider;
 
 import java.util.stream.Collectors;
 
