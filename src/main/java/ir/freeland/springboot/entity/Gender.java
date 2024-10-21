@@ -1,4 +1,4 @@
-package ir.freeland.springboot.persistence.model;
+package ir.freeland.springboot.entity;
 
 
 public enum Gender {
