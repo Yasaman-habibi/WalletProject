@@ -1,0 +1,12 @@
+package ir.freeland.springboot.persistence.repo;
+
+import org.springframework.data.repository.CrudRepository;
+import ir.freeland.springboot.persistence.model.Transaction;
+import java.util.List;
+
+public interface TransactionRepository extends CrudRepository<Transaction, Long> {
+    
+    List<Transaction> findByAccount_Id(long accountId);
+	
+	List<Transaction> findByPerson_NationalId(String nationalId);
+}
