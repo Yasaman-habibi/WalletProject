@@ -1,4 +1,4 @@
-package ir.freeland.springboot.web.exception;
+package ir.freeland.springboot.exception;
 
 public class ValidationException extends RuntimeException {
 
