@@ -1,11 +1,11 @@
-package ir.freeland.springboot.web;
+package ir.freeland.springboot.validation;
 
 import org.springframework.stereotype.Component;
 import org.springframework.validation.Errors;
 import org.springframework.validation.Validator;
 import java.time.*;
-import ir.freeland.springboot.persistence.model.Gender;
-import ir.freeland.springboot.persistence.model.Person;
+import ir.freeland.springboot.entity.Gender;
+import ir.freeland.springboot.entity.Person;
 
 @Component
 public class PersonValidator implements Validator{
