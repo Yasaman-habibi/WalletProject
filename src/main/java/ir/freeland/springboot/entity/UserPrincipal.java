@@ -1,4 +1,4 @@
-package ir.freeland.springboot.persistence.model;
+package ir.freeland.springboot.entity;
 
 import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.core.userdetails.UserDetails;
