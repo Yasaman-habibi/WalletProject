@@ -1,4 +1,4 @@
-package ir.freeland.springboot.web.exception;
+package ir.freeland.springboot.exception;
 
 import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Service;
