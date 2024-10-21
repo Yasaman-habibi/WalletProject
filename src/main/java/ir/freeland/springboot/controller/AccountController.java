@@ -1,4 +1,4 @@
-package ir.freeland.springboot.web;
+package ir.freeland.springboot.controller;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -15,9 +15,9 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
-import ir.freeland.springboot.persistence.model.Account;
-import ir.freeland.springboot.persistence.model.AccountDto;
-import ir.freeland.springboot.web.exception.ErrorResponseService;
+import ir.freeland.springboot.entity.Account;
+import ir.freeland.springboot.dto.AccountDto;
+import ir.freeland.springboot.exception.ErrorResponseService;
 
 import java.math.BigDecimal;
 import java.util.List;
