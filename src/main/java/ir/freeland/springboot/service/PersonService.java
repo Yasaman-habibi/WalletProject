@@ -1,4 +1,4 @@
-package ir.freeland.springboot.web;
+package ir.freeland.springboot.service;
 
 import java.util.Optional;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -8,9 +8,9 @@ import org.springframework.security.authentication.UsernamePasswordAuthenticatio
 import org.springframework.security.core.Authentication;
 import org.springframework.security.core.AuthenticationException;
 import org.springframework.security.crypto.password.PasswordEncoder;
-import ir.freeland.springboot.persistence.model.Person;
-import ir.freeland.springboot.persistence.repo.PersonRepository;
-import ir.freeland.springboot.web.exception.ResourceNotFoundException;
+import ir.freeland.springboot.entity.Person;
+import ir.freeland.springboot.repository.PersonRepository;
+import ir.freeland.springboot.exception.ResourceNotFoundException;
 import org.springframework.stereotype.Service;
 
 @Service
