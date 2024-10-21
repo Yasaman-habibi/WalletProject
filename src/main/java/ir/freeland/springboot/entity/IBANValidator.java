@@ -1,4 +1,4 @@
-package ir.freeland.springboot.persistence.model;
+package ir.freeland.springboot.entity;
 import javax.validation.ConstraintValidator;
 import javax.validation.ConstraintValidatorContext;
 import java.util.regex.Pattern;
