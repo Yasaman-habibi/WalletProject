@@ -1,4 +1,4 @@
-package ir.freeland.springboot.web;
+package ir.freeland.springboot.dto;
 
 import javax.validation.constraints.NotNull;
 import javax.validation.constraints.Pattern;
