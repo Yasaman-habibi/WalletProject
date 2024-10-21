@@ -1,4 +1,4 @@
-package ir.freeland.springboot.persistence.model;
+package ir.freeland.springboot.dto;
 
 import java.math.BigDecimal;
 import javax.validation.constraints.Min;
