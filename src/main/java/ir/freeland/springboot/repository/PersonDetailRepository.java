@@ -1,7 +1,7 @@
-package ir.freeland.springboot.persistence.repo;
+package ir.freeland.springboot.repository;
 
 import org.springframework.data.repository.CrudRepository;
-import ir.freeland.springboot.persistence.model.PersonDetails;
+import ir.freeland.springboot.entity.PersonDetails;
 import java.util.Optional;
 
 public interface PersonDetailRepository extends CrudRepository<PersonDetails, Long> {
