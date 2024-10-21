@@ -1,15 +1,15 @@
-package ir.freeland.springboot.web;
+package ir.freeland.springboot.service;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.security.core.context.SecurityContextHolder;
 import org.springframework.stereotype.Service;
-import ir.freeland.springboot.persistence.model.Account;
-import ir.freeland.springboot.persistence.model.AccountDto;
-import ir.freeland.springboot.persistence.repo.AccountRepository;
-import ir.freeland.springboot.web.exception.ResourceNotFoundException;
-import ir.freeland.springboot.web.exception.ValidationException;
+import ir.freeland.springboot.entity.Account;
+import ir.freeland.springboot.dto.AccountDto;
+import ir.freeland.springboot.repository.AccountRepository;
+import ir.freeland.springboot.exception.ResourceNotFoundException;
+import ir.freeland.springboot.exception.ValidationException;
 import org.springframework.security.core.Authentication;
 import java.math.BigDecimal;
 import java.util.List;
